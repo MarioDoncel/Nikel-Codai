@@ -1,0 +1,164 @@
+:root  {
+    --principal: #4c79d3;
+    --secundary: #4e0070;
+
+    /* Establishing 'rem' in 10px - To use all font-sizes responsives */
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-size: 1.6rem;
+}
+#login{
+    background: linear-gradient(120deg,#4c79d3 44.9%, #fff 45%) no-repeat fixed;
+}
+
+
+
+.text-login {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.coins{
+    position: absolute;
+    bottom: 100px;
+}
+
+
+.button-login{
+    border-radius: 10px;
+    background: #4e0070;
+    color: #fff;
+    width: 50%;
+    margin: 0 25%;
+    font-size: 1.8rem;
+}
+.button-login:hover{
+    background: var(--principal);
+   color: #fff;
+}
+.link-default {
+    font-weight: 500;
+    color: var(--secundary) ;
+    cursor: pointer;
+}
+.link-default:hover{
+    color: var(--principal);
+}
+
+/* --------------- HOME  --------- */
+
+#app{
+    background: linear-gradient(120deg, #fff 45%, #4c79d3 44.9%) no-repeat fixed;
+}
+header{
+    border-bottom: 1px solid #bebcbc;
+    padding: 5px;
+    background: white;
+}
+.color-primary{
+    color: var(--principal);
+}
+.color-secundary{
+    color: var(--secundary);
+}
+ i{
+    font-size: 2.0rem;
+}
+.icon-detail {
+    font-size: 5rem;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.info{
+    background: #fff;
+    border-radius: 20px 20px 0 0 ;
+    padding: 20px 0 20px 0 ;
+}
+
+.button-default{
+    border-radius: 10px;
+    background: var(--secundary);
+    color: #fff;
+    font-size: 2rem;
+}
+.button-default:hover{
+    background: var(--principal);
+   color: #fff;
+}
+
+.button-float {
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    bottom: 5rem;
+    right: 5%;
+    font-size: 60px;
+    background: var(--secundary);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--secundary);
+}
+.button-float:hover{
+    border: 2px solid var(--principal);
+    background: #fff;
+    color: var(--principal);
+}
+
+.dropdown-menu{
+    min-width:initial;
+}
+
+
+
+
+
+
+
+/* RESPONSIVIDADE */
+
+/* ==== PRIMEIRO PADRÃO ==== */
+
+/* BIG DESKTOP */
+@media (min-width:1800px){
+}
+/* DESKTOP */
+@media (min-width:1200px), (max-width:1800px){
+}
+/* TABLET LANDSCAPE */
+@media (min-width:900px), (max-width:1200px){
+}
+/* TABLET PORTRAIT */
+@media  (min-width:600px), (max-width:1900px){
+}
+/* CELLPHONE */
+@media  (max-width:600px){
+}
+
+/* ==== SEGUNDO PADRÃO ==== */
+
+@media (min-width:320px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
+@media (min-width:480px) { /* smartphones, Android phones, landscape iPhone */ }
+@media (min-width:600px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+@media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
