@@ -129,7 +129,7 @@ or
 * **Create Account Modal** - Modal with the inputs to create the account.
 <img src="assets/readmeImages/CreateAccountModal.png" width="500px">
 
-* **Home Page** - Here is shown the account balance and the last 5 transactions of income and expenses, also you have a button to add a new transaction.
+* **Home Page** - Here is shown the account balance and the last 5 transactions of income and expenses, also you have a button to add a new transaction.<br>
 <img src="assets/readmeImages/HomePage.png" width="500px">
 
 * **Create Transaction Modal** - Modal with the inputs to create a new transaction.
